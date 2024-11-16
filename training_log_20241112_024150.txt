@@ -1,0 +1,60 @@
+2024-11-12 02:41:50,492 - Iniciando proceso de entrenamiento...
+2024-11-12 02:41:50,493 - Cargando datos de Abrazo...
+2024-11-12 02:41:50,527 - Muestras para Abrazo: 663
+2024-11-12 02:41:50,528 - Cargando datos de Adios...
+2024-11-12 02:41:50,557 - Muestras para Adios: 424
+2024-11-12 02:41:50,557 - Cargando datos de Como estas...
+2024-11-12 02:41:50,581 - Muestras para Como estas: 605
+2024-11-12 02:41:50,582 - Cargando datos de Computador...
+2024-11-12 02:41:50,603 - Muestras para Computador: 543
+2024-11-12 02:41:50,603 - Cargando datos de Fomen...
+2024-11-12 02:41:50,628 - Muestras para Fomen: 587
+2024-11-12 02:41:50,629 - Cargando datos de Hola...
+2024-11-12 02:41:50,649 - Muestras para Hola: 61
+2024-11-12 02:41:50,650 - Cargando datos de Pololos...
+2024-11-12 02:41:50,672 - Muestras para Pololos: 434
+2024-11-12 02:41:50,672 - Cargando datos de Yo estoy bien...
+2024-11-12 02:41:50,698 - Muestras para Yo estoy bien: 355
+2024-11-12 02:41:50,698 - Cargando datos de Yo estoy mal...
+2024-11-12 02:41:50,721 - Muestras para Yo estoy mal: 336
+2024-11-12 02:41:50,722 - Cargando datos de Yo estoy mas o menos...
+2024-11-12 02:41:50,745 - Muestras para Yo estoy mas o menos: 352
+2024-11-12 02:41:50,747 - Iniciando preprocesamiento de datos...
+2024-11-12 02:41:51,115 - Distribución de clases después del balanceo:
+2024-11-12 02:41:51,118 - Abrazo: 663
+2024-11-12 02:41:51,118 - Adios: 663
+2024-11-12 02:41:51,119 - Como estas: 663
+2024-11-12 02:41:51,119 - Computador: 663
+2024-11-12 02:41:51,119 - Fomen: 663
+2024-11-12 02:41:51,119 - Hola: 663
+2024-11-12 02:41:51,119 - Pololos: 663
+2024-11-12 02:41:51,119 - Yo estoy bien: 663
+2024-11-12 02:41:51,119 - Yo estoy mal: 663
+2024-11-12 02:41:51,119 - Yo estoy mas o menos: 663
+2024-11-12 02:41:51,120 - Iniciando entrenamiento del modelo...
+2024-11-12 02:55:29,267 - 
+Mejores parámetros encontrados:
+2024-11-12 02:55:29,267 - {'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 300}
+2024-11-12 02:55:29,267 - 
+Reporte de clasificación:
+2024-11-12 02:55:29,302 - 
+                      precision    recall  f1-score   support
+
+              Abrazo       0.99      0.99      0.99       132
+               Adios       1.00      0.99      1.00       132
+          Como estas       0.95      0.95      0.95       133
+          Computador       0.96      0.97      0.96       133
+               Fomen       0.97      0.95      0.96       133
+                Hola       1.00      1.00      1.00       132
+             Pololos       1.00      1.00      1.00       133
+       Yo estoy bien       0.97      0.98      0.97       133
+        Yo estoy mal       0.95      0.97      0.96       132
+Yo estoy mas o menos       0.93      0.91      0.92       133
+
+            accuracy                           0.97      1326
+           macro avg       0.97      0.97      0.97      1326
+        weighted avg       0.97      0.97      0.97      1326
+
+2024-11-12 02:55:29,441 - Modelo y scaler guardados en models\model_20241112_024150
+2024-11-12 02:55:31,203 - Matriz de confusión guardada en models\model_20241112_024150\confusion_matrix.png
+2024-11-12 02:55:31,203 - Proceso de entrenamiento completado exitosamente
