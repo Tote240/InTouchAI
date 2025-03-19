@@ -1,0 +1,36 @@
+name: traductor_senas
+description: "Traductor de Lenguaje de Señas"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.5+5
+  cupertino_icons: ^1.0.6
+  http: ^1.1.2
+  google_ml_kit: ^0.16.3
+  tflite_flutter: ^0.8.0
+  image: ^4.1.3
+  permission_handler: ^11.0.1
+  path_provider: ^2.0.15
+  path: ^1.8.3
+
+  
+ # flutter_mediapipe: ^0.0.7
+ 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    
