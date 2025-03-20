@@ -4,7 +4,7 @@ import os
 class AzureConfig:
     # Cadena de conexión correcta
     STORAGE_CONNECTION_STRING = ""
-    CONTAINER_NAME = "gestures-data"
+    CONTAINER_NAME = ""
 
 def test_connection():
     try:
