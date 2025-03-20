@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 from pymongo import MongoClient
 
 # Conexión a MongoDB Atlas
-client = MongoClient('mongodb+srv://josuecalabran:23803400.@ia.ebtrt.mongodb.net/')
+client = MongoClient('mongodb+srv://nombre+contraseña.@ia.ebtrt.mongodb.net/')
 db = client['Lenguaje-señas']
 gestures_collection = db['gestures']
 

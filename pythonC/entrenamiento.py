@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 from pymongo import MongoClient
 
 class EntrenadorModeloLenguajeSeñas:
-    def __init__(self, uri_mongodb='mongodb+srv://josuecalabran:23803400.@ia.ebtrt.mongodb.net/'):
+    def __init__(self, uri_mongodb='mongodb+srv://nombre+contraseña.@ia.ebtrt.mongodb.net/'):
         """
         Inicializar el entrenador con conexión a MongoDB
         """

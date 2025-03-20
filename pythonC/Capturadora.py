@@ -24,7 +24,7 @@ class CapturadorGestos:
         
         # Conexión a MongoDB
         try:
-            self.cliente = MongoClient('mongodb+srv://josuecalabran:23803400.@ia.ebtrt.mongodb.net/')
+            self.cliente = MongoClient('mongodb+srv://nombre+contraseña.@ia.ebtrt.mongodb.net/')
             self.bd = self.cliente['Lenguaje-señas']
             self.coleccion_gestos = self.bd['gestures']  # Usar la colección "gestures"
             self.fs = gridfs.GridFS(self.bd)

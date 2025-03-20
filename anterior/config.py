@@ -3,7 +3,7 @@ import os
 
 class AzureConfig:
     # Cadena de conexión correcta
-    STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=lenguajesenas;AccountKey=bKiisdGuzmkuXiqWHD1Jgx9iC5pWr3ZbrB2DN5ut8bALFZosEfFj5AkjGVG08+nDSz7S9d+iKVFI+AStR0+Vsw==;EndpointSuffix=core.windows.net"
+    STORAGE_CONNECTION_STRING = ""
     CONTAINER_NAME = "gestures-data"
 
 def test_connection():
